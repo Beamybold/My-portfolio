@@ -2,23 +2,24 @@ function Footer() {
   const year = new Date().getFullYear();
 
   return (
-    <footer className="bg-black text-gray-300">
-      {/* Top */}
+    <footer className="bg-purple-100 text-gray-600">
+      
+
       <div className="max-w-7xl mx-auto px-6 py-10 grid grid-cols-1 md:grid-cols-4 gap-8">
-        {/* Brand */}
+     
         <div>
-          <h3 className="text-white text-2xl font-bold">AdebimpeAI</h3>
+          <h3 className="text-black text-2xl font-bold">AdebimpeAI</h3>
           <p className="mt-3 text-sm">
-            Crafting intelligent products with ethical AI, robust engineering, and clear impact.
+            Solving problems with intelligent products using AI.
           </p>
-          <p className="mt-2 text-sm">Lagos, Nigeria</p>
+          <p className="mt-2 text-sm">Abeokuta, Nigeria</p>
         </div>
 
-        {/* Quick links */}
+        
         <div>
-          <h4 className="text-white font-semibold mb-3">Quick links</h4>
+          <h4 className="text-black  font-semibold mb-3">Quick links</h4>
           <ul className="space-y-2 text-sm">
-            <li><a href="/" className="hover:text-white transition">Home</a></li>
+            <li><a href="/" className="hover:text-YELLOW-4 transition">Home</a></li>
             <li><a href="/about" className="hover:text-white transition">About</a></li>
             <li><a href="/projects" className="hover:text-white transition">Projects</a></li>
             <li><a href="/skills" className="hover:text-white transition">Skills</a></li>
